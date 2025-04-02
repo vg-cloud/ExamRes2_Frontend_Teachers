@@ -1,0 +1,28 @@
+{
+  "name": "examres2_teacher",
+  "version": "1.0.0",
+  "description": "A new Flutter project.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vg-cloud/examres2_teacher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vg-cloud/examres2_teacher/issues"
+  },
+  "homepage": "https://github.com/vg-cloud/examres2_teacher#readme",
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.15.0",
+    "@aws-amplify/backend-cli": "^1.5.0",
+    "typescript": "^5.8.2"
+  }
+}
