@@ -26,11 +26,13 @@ Node and Flutter installed, AWS Backend deployed, new Flutter app created.
 
 ### Install Amplify dependencies
 
-Run the following command from the root folder of the repository:
+1. Run the following commands from the root folder of the repository:
 
-`npm add @aws-amplify/backend-cli aws-amplify @aws-amplify/ui-react`
+`npm init -y`
 
-Add these lines to `pubspec.yaml`
+`npm add --save-dev @aws-amplify/backend@latest @aws-amplify/backend-cli@latest typescript`
+
+2. Add these lines to `pubspec.yaml`
 ```
   amplify_flutter: ^2.0.0
   amplify_auth_cognito: ^2.0.0
